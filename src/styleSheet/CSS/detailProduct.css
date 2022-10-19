@@ -1,0 +1,70 @@
+.star{
+	width: 10px;
+}
+.checked {
+  color: orange;
+}
+
+.infoProduct{
+	background-color: #f2f2f2;
+	border: 1px solid black;
+}
+.infoLeft{
+	margin: 20px;
+	margin-right: 10px;
+	font-size:20px ;
+}
+.detail-product{
+	margin: 1rem auto;
+}
+.infoLeft > img{
+	width: 100%;
+	border-radius: 3px;
+	margin-bottom: 20px;
+	box-shadow: 3px 5px 2px #aaa;
+}
+.infoLeft .buy{
+	margin: 0px 50px;
+}
+
+.infoLeft .buy .Buy{
+	float: right;
+}
+.infoLeft .buy .Buy button{
+	background-color: #ea2c0d;
+    border: none;
+    color: white;	
+}
+
+
+.infoLeft .buy .Add button{
+	background-color: #ea920d;
+    border: none;
+    color: white;
+}
+
+
+.infoRight > .contents{
+	background-color: #f2f2f2;	
+	font-size: 20px;
+	margin: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+	.infoLeft{
+		margin: 0px;
+		/*margin-right: 10px;*/
+		font-size:15px ;
+	}
+	.infoRight > .contents{
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.infoLeft{
+		font-size:15px ;
+	}
+	.infoRight > .contents{
+		font-size: 15px;
+	}
+}

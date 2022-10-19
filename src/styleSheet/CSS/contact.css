@@ -1,0 +1,17 @@
+.contactFrame{
+	margin: 2rem auto;
+	padding: 1rem;
+	background-color: #eceae6;
+}
+
+.contactFrame h2{
+	padding-top:1rem ;
+	text-align: center;
+}
+.contact label{
+	text-align: left;
+}
+.contact{
+	padding: 1rem;
+	background-color: #eceae6;
+}
